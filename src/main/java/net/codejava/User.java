@@ -29,9 +29,7 @@ public class User {
 	
 	@Column(name = "last_name", nullable = false, length = 20)
 	private String lastName;
-	private String captcha;
-	private String hiddenCaptcha;
-	private String realCaptcha;
+	
 	
 
 	public Long getId() {
@@ -74,24 +72,7 @@ public class User {
 		this.lastName = lastName;
 	}
 
-	public String getCaptcha() {
-		return captcha;
-	}
-	public void setCaptcha(String captcha) {
-		this.captcha = captcha;
-	}
-	public String getHiddenCaptcha() {
-		return hiddenCaptcha;
-	}
-	public void setHiddenCaptcha(String hiddenCaptcha) {
-		this.hiddenCaptcha = hiddenCaptcha;
-	}
-	public String getRealCaptcha() {
-		return realCaptcha;
-	}
-	public void setRealCaptcha(String realCaptcha) {
-		this.realCaptcha = realCaptcha;
-	}
+	
 	
 	
 	
